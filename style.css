@@ -1,0 +1,37 @@
+body {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container {
+    height: 100%;
+    padding: 0 px;
+    margin: 0 px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    margin: auto;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  border: 3px solid black;
+  padding: 30px;
+}
+.hit {
+    background-color: red;
+}
+
+.miss {
+    background-color: blue;
+}
+.reveal {
+    background-color: #333333;
+}
+
+footer {
+    font-size: 50%;
+    text-align: center;
+}
